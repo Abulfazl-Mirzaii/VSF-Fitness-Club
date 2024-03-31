@@ -1,0 +1,215 @@
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    background-image: linear-gradient(gray,rgb(140,140,130), gray);
+    width: 100%;
+    height: 70px;
+}
+.logo {
+    float: left;
+}
+img.logo{
+    height: 70px;
+    width: auto;
+}
+label.club-name{
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 70px;
+    padding-top: auto;
+    color: #fff;
+}
+ul.nav-links{
+    display: inline-flex;
+    float: right;
+    margin-right: 10px;
+}
+.nav-links li{
+    padding: 10px;
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.nav-links li a:hover{
+    background-color: rgb(50, 50, 50);
+    transition-duration: 1s;
+}
+
+main {
+    top: 70px;
+    background-image: url('https://cdn.bhdw.net/im/one-day-you-can-have-such-muscles-by-working-in-the-gym-wallpaper-92002_w635.webp');
+    background-repeat: 1;
+    height: 750px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-text h1{
+    color: whitesmoke;
+    font-size: xx-large;
+    text-shadow: 2px 2px #00f;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5%;
+    margin: 5%;
+    padding: 5%;
+    box-sizing: border-box;
+  }
+  
+  .container > div {
+    flex: 1 0 calc(50% - 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+  .container div.p{
+    height: fit-content;
+    border-radius: 0;
+  }
+
+  .container > div:nth-child(even) {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 900px) {
+    .container > div {
+      flex: 1 0 100%;
+    }
+    nav {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 120px;
+    }
+  }
+button{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+}
+
+footer {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 667px) {
+    nav {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    
+    nav{
+        position: absolute;
+        background-image: linear-gradient(gray,rgb(140,140,130), gray);
+        width: 100%;
+        height: 300px;
+        
+    }
+    img.logo{
+        height: 70px;
+        width: 70px;
+    }
+    label.club-name{
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        line-height: 70px;
+        padding-top: auto;
+        color: #fff;
+    }
+    ul.nav-links{
+        display: inline-flex;
+        flex-direction: column;
+        float: center;
+        margin-right: 0px;
+        align-items: center;
+        
+    }
+    .nav-links li{
+        padding: 2px;
+        list-style-type: none;
+        align-self: center;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        line-height: 50px;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .nav-links li a:hover{
+        background-color: none;
+    }
+    main {
+        padding-top: 300px;
+        top: 70px;
+        background-image: url('https://cdn.bhdw.net/im/one-day-you-can-have-such-muscles-by-working-in-the-gym-wallpaper-92002_w635.webp');
+        background-repeat: 1;
+        height: 500px;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-text h1{
+        color: whitesmoke;
+        font-size: x-large;
+        text-shadow: 2px 2px #00f;
+    }
+    section.container p{
+        font-size: 11px;
+    }
+}
