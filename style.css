@@ -62,6 +62,57 @@ main {
     text-shadow: 2px 2px #00f;
 }
 
+div.first-img {
+    background-image: url(https://www.onlarissa.gr/wp-content/uploads/2023/04/202304240310067691.jpg);
+    background-size: 800px;
+    background-position: center;
+    border-radius: 1px;
+}
+div.first-img p{
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    text-align: left;
+    margin-top: 50%;
+    width: 100%;
+    padding: 1vw;
+}
+
+div.second-img {
+    background-image: url(https://assets.entrepreneur.com/content/3x2/2000/1606250309-GettyImages-1203043225.jpg);
+    background-size: 800px;
+    background-position: center;
+    border-radius: 1px;
+    margin-bottom: auto;
+}
+div.second-img p{
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    text-align: left;
+    margin-top: 44%;
+    width: 100%;
+    padding: 1vw;
+}
+
+div.third-img {
+    background-image: url(https://barbend.com/wp-content/uploads/2021/06/Push-Up-Step-3.jpg);
+    background-size: 800px;
+    background-position: center;
+    border-radius: 1px;
+    background-repeat: no-repeat;
+}
+div.third-img p{
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    text-align: center;
+    margin-top: 18vw;
+    margin-right: 14vw;
+    margin-left: 14vw;
+    padding: 1vw;
+
+}
+
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +132,6 @@ main {
     height: 400px;
     overflow: hidden;
     margin-bottom: 50px;
-    border-radius: 50px;
     text-align:center;
     padding-left: 10px;
     padding-right: 10px;
