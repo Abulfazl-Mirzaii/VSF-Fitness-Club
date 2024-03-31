@@ -63,7 +63,7 @@ main {
 }
 
 div.first-img {
-    background-image: url(https://www.onlarissa.gr/wp-content/uploads/2023/04/202304240310067691.jpg);
+    background-image: url('https://www.onlarissa.gr/wp-content/uploads/2023/04/202304240310067691.jpg');
     background-size: 800px;
     background-position: center;
     border-radius: 1px;
@@ -78,7 +78,7 @@ div.first-img p{
 }
 
 div.second-img {
-    background-image: url(https://assets.entrepreneur.com/content/3x2/2000/1606250309-GettyImages-1203043225.jpg);
+    background-image: url('https://assets.entrepreneur.com/content/3x2/2000/1606250309-GettyImages-1203043225.jpg');
     background-size: 800px;
     background-position: center;
     border-radius: 1px;
@@ -94,7 +94,7 @@ div.second-img p{
 }
 
 div.third-img {
-    background-image: url(https://barbend.com/wp-content/uploads/2021/06/Push-Up-Step-3.jpg);
+    background-image: url('https://barbend.com/wp-content/uploads/2021/06/Push-Up-Step-3.jpg');
     background-size: 800px;
     background-position: center;
     border-radius: 1px;
